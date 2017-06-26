@@ -13,7 +13,8 @@ The example runs the given program and input `Fudan University` as entity name.
 ```
 $ Please input the entity name
 Fudan University
-[{'eid': u'Q8686',
+
+$ [{'eid': u'Q8686',
   'entity': u'Shanghai',
   'pid': u'P159',
   'property': u'headquarters location'},
@@ -40,13 +41,14 @@ Fudan University
 
 ```
 
-##Getting Started
+## Getting Started
 The program needs `python 2.7` environment.
 To simply run and see what it can do, simple run `python api.py` and input `Fudan University`.
 
-##Output Specification
+## Output Specification
 The api returns a list containing several dicts composed of `property id`, `property name`, `entity id`, `entity name` represented in wikidata.
 
-##Helpful Links
+## Helpful Links
 [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+
 [Freebase-Wikidata-mappings](https://developers.google.com/freebase/#freebase-wikidata-mappings)
